@@ -14,6 +14,13 @@
     font-size: 58px;
     text-align: center;
     color: #F0FFFF;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+#belowName {
+    text-align: center;
+    color: #F0FFFF;
+    font-family: Tahoma, Geneva, sans-serif;
 }
 
 #profileImage {
@@ -21,7 +28,7 @@
     
 }
 
-img{
+#myPhoto{
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -51,11 +58,13 @@ img{
 
 
 
+
+
 /* Menu bar and list items attribute */
 #menuBar {
     background-color: #36454f;
     width: 100%;
-    height: 50px;
+    height: 60px;
     border-radius: 5px;
 }
 
@@ -64,23 +73,126 @@ ul {
     text-align: center;
     font-size: 24px;
     color: #F0FFFF;
+    font-family: Tahoma, Geneva, sans-serif;
+    
     
 }
 
 #menuBar ul
 {
     margin: 0;
-    padding: 0;
+    padding: 0
+    
 }
 
 #menuBar ul li
 {
     list-style-type: none;
-    display: inline;
+    display: inline; 
+    margin-left: 15px;
+    
     
 }
 
-#menuBar li:not(:first-child):before {
-    content: " | ";
+#menuBar ul li:hover{
+    color: gold;
+}
+
+.borderRight {
+    border-right: 2px solid #F0FFFF;
+    padding-right: 10px;
+    
+    
+}
+
+a {
+    color: #F0FFFF;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #F0FFFF;
+}
+
+a:visited {
+    color: #F0FFFF;
+}
+
+
+/* Drop down areas */
+.dropDownArea {
+    background-image: url("../images/dropDownBackground.jpeg");
+    background-size: cover;
+    margin-top: -10px;
+    margin-bottom: -10px;
+  
+}
+
+#aboutMe {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#resume {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#resumeImage {
+    height: 400px;
+    width: 250px;
+}
+
+
+
+.resumeExample {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.resumeSummary {
+    margin-top: 40px;
+}
+
+#portfolioTitle {
+    text-align: center;
+    width: 100%;
+  
+}
+.portfolioImage {
+    height: 300px;
+    width: 300px;
+   margin-bottom: 25px;
+   margin-top: 25px;
+}
+
+
+
+.left {
+    border: 1px solid black;
+}
+
+.right {
+    border: 1px solid black;
+}
+
+
+/* Footer Area */
+footer {
+    background-color: #36454f;
+    height: 100px;
+    text-align: center;
+    border-radius: 5px;
+    border-top: 1px solid gold;
+}
+
+#copyright {
+    padding-top: 30px;
+    color: #F0FFFF;
+    font-size: 16px;
 }
 
