@@ -122,6 +122,9 @@ a:visited {
 
 
 /* Drop down areas */
+
+
+
 .dropDownArea {
     background-image: url("../images/dropDownBackground.jpeg");
     background-size: cover;
@@ -196,10 +199,11 @@ a:visited {
 /* Footer Area */
 footer {
     background-color: #36454f;
-    height: 65px;
+    height: 75px;
     text-align: center;
     border-radius: 5px;
-    border: 1px solid white;
+   
+    margin-top: -20px;
     
 }
 
