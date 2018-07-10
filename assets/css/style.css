@@ -14,17 +14,21 @@
     font-size: 58px;
     text-align: center;
     color: #F0FFFF;
-    font-family: Verdana, Geneva, sans-serif
+    font-family: Verdana, Geneva, sans-serif;
+    opacity: 0;
+    
 }
 
 #belowName {
     text-align: center;
     color: #F0FFFF;
-    font-family: Verdana, Geneva, sans-serif
+    font-family: Verdana, Geneva, sans-serif;
+    opacity: 0;
 }
 
 #profileImage {
     text-align: center;
+    opacity: 0;
    
     
 }
@@ -47,6 +51,8 @@
     padding: 0;
     margin-top: 15px;
 }
+
+
 
 #personalLinks ul li
 {
@@ -96,15 +102,9 @@ ul {
     
 }
 
-.menuBar ul li:hover{
-    color: gold;
-}
-
 .borderRight {
     border-right: 2px solid #F0FFFF;
     padding-right: 10px;
-    
-    
 }
 
 a {
@@ -120,27 +120,25 @@ a:visited {
     color: #F0FFFF;
 }
 
+.panel {
+    background-image: url("../images/dropDownBackground.jpeg");
+    background-size: cover;
+}
 
 /* Drop down areas */
 
 
 
-.dropDownArea {
-    background-image: url("../images/dropDownBackground.jpeg");
-    background-size: cover;
-    margin-top: -10px;
-    margin-bottom: -10px;
-  
-}
 
-#dropDownTitle {
+
+.dropDownTitle {
     text-align: center;
     width: 100%;
   
 }
 
 #aboutMe {
-    border: 1px solid black;
+    
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -160,11 +158,8 @@ a:visited {
    
 }
 
-.aboutBorder {
-    border: 1px solid black;
-}
+
 #resume {
-    border: 1px solid black;
     margin-top: 10px;
     margin-bottom: 10px;
 
@@ -173,6 +168,7 @@ a:visited {
 #resumeImage {
     height: 400px;
     width: 250px;
+    border: 1px solid black;
 }
 
 
@@ -188,31 +184,47 @@ a:visited {
     font-size: 20px;
 }
 
-#portfolio {
-    border: 1px solid black;
-}
+
+/* Portfolio section and image attributes */
+
+
 
 .imageItself {
     width: 33.3%;
     float: left;
 }
 .portfolioImage {
-    height: 300px;
+    height: 270px;
     width: 300px;
    margin-bottom: 25px;
    margin-top: 25px;
+   margin-left: 35px;
+   border-radius: 7px;
 }
 
 
 
-.left {
-    border: 1px solid black;
+.portfolioImage:hover {
+    border: solid 2px #CCC;
+    -moz-box-shadow: 0px 5px 5px 0px #999;
+    -webkit-box-shadow: 0px 5px 5px 0px #999;
+    box-shadow: 0px 5px 5px  0px#999;
+
+    opacity: 0.3;
+    transition: 1;
 }
 
-.right {
-    border: 1px solid black;
+
+
+.contactHello {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 32px;
 }
 
+.contactText {
+    margin-bottom: 20px;
+}
 
 /* Footer Area */
 footer {
@@ -229,6 +241,12 @@ footer {
     padding-top: 30px;
     color: #F0FFFF;
     font-size: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+    .portfolioImage {
+        margin-left: 0px;
+    }
 }
 
 
