@@ -75,15 +75,15 @@ ul {
     text-align: center;
     font-size: 24px;
     color: #F0FFFF;
-    font-family: Verdana, Geneva, sans-serif
-    
+    font-family: Verdana, Geneva, sans-serif    
     
 }
 
 .menuBar ul
 {
     margin-top: 15px;
-    padding: 0
+    padding: 0;
+    width: 100%;
     
 }
 
@@ -145,10 +145,23 @@ a:visited {
     margin-bottom: 10px;
 }
 
+.aboutText {
+    font-size: 20px;
+}
+
+.image {
+    text-align: center;
+}
+
 #aboutImage {
     height: 250px;
     width: 350px;
     margin-bottom: 20px;
+   
+}
+
+.aboutBorder {
+    border: 1px solid black;
 }
 #resume {
     border: 1px solid black;
@@ -172,12 +185,17 @@ a:visited {
 
 .resumeSummary {
     margin-top: 40px;
+    font-size: 20px;
 }
 
 #portfolio {
     border: 1px solid black;
 }
 
+.imageItself {
+    width: 33.3%;
+    float: left;
+}
 .portfolioImage {
     height: 300px;
     width: 300px;
@@ -214,13 +232,26 @@ footer {
 }
 
 
-
+@media screen and (max-width: 1000px) {
+    .imageItself{
+        width: 47%;
+        margin-left: 15px;
+    }
+}
 
 @media screen and (max-width: 880px) {
     #topJumbotron{
     background-image: url("../images/jumbotronBackground2.jpeg");
   
     }  
+
+}
+
+@media screen and (max-width: 690px) {
+    .imageItself{
+        width: 100%;
+        text-align: center;
+    }
 }
 
 
@@ -230,6 +261,9 @@ footer {
         width: 560px;
     }
 
+    #accordion{
+        width: 560px;
+    }
     #menuBar {
         width: 560px;
     }
