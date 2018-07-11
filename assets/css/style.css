@@ -186,12 +186,10 @@ a:visited {
 
 
 /* Portfolio section and image attributes */
-
-
-
 .imageItself {
     width: 33.3%;
     float: left;
+    position: relative;
 }
 .portfolioImage {
     height: 270px;
@@ -202,20 +200,104 @@ a:visited {
    border-radius: 7px;
 }
 
-
-
-.portfolioImage:hover {
-    border: solid 2px #CCC;
-    -moz-box-shadow: 0px 5px 5px 0px #999;
-    -webkit-box-shadow: 0px 5px 5px 0px #999;
-    box-shadow: 0px 5px 5px  0px#999;
-
-    opacity: 0.3;
-    transition: 1;
+img {
+    height: 300px;
+    width: 300px;
 }
 
+/* General Rules for portfolio images */
+.view {
+    width: 315px;
+    height: 280px;
+    margin: 5px;
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px black;
+    cursor: default;
+    background: #fff url(../images/bgimg.jpg) no-repeat center center
+}
+.view .mask, .view .content {
+    width: 300px;
+    height: 290px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000
+}
 
+/* Transition of effect on the portfolio images */
+.view-fifth img {
+	transition: all 0.3s ease-in-out; 
+}
+.view-fifth .mask { 
+	background-color: grey;
+	transform: translateX(-300px);
+	opacity: 1;
+	transition: all 0.4s ease-in-out; 
+}
+.view-fifth h2{
+    background: white;
+    color: #000;
+    box-shadow: 0px 1px 3px rgba(197, 187, 186, 0.5);
+}
+.view-fifth p{
+    opacity: 0;
+    color: white;
+    transition: all 0.2s linear;
+}
 
+/*Hover effects of the portfolio images */
+.view-fifth:hover .mask { 
+	transform: translateX(0px);
+}						
+.view-fifth:hover img { 
+	transform: translateX(300px);
+	transition-delay: 0.1s;
+}
+.view-fifth:hover p{
+    opacity: 1;
+    transition-delay: 0.4s;
+}
+
+/* Design of the contact page */
 .contactHello {
     width: 100%;
     text-align: center;
@@ -269,7 +351,11 @@ footer {
     .imageItself{
         width: 100%;
         text-align: center;
-    }
+        margin-left: 22%;
+        margin-right: 50%;
+       
+        
+    } 
 }
 
 
@@ -290,11 +376,21 @@ footer {
         width: 65%;
 
     }
+
+    .imageItself {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
     
     #footer {
         width: 560px;
     }
 }
+
+
+
+
+
 
 
 
