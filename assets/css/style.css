@@ -186,19 +186,15 @@ a:visited {
 
 
 /* Portfolio section and image attributes */
+
 .imageItself {
     width: 33.3%;
     float: left;
     position: relative;
+    margin-bottom: 15px;
+    
 }
-.portfolioImage {
-    height: 270px;
-    width: 300px;
-   margin-bottom: 25px;
-   margin-top: 25px;
-   margin-left: 35px;
-   border-radius: 7px;
-}
+
 
 img {
     height: 300px;
@@ -207,8 +203,9 @@ img {
 
 /* General Rules for portfolio images */
 .view {
-    width: 315px;
+    width: 310px;
     height: 280px;
+    border-radius: 10px;
     margin: 5px;
     float: left;
     border: 10px solid #fff;
@@ -329,6 +326,9 @@ footer {
     .portfolioImage {
         margin-left: 0px;
     }
+
+    
+    
 }
 
 
