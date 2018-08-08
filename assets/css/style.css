@@ -61,12 +61,6 @@
     margin-right: 10px;
 }
 
-
-
-
-
-
-
 /* Menu bar and list items attribute */
 .menuBar {
     background-color: #36454f;
@@ -145,6 +139,7 @@ a:visited {
 
 .aboutText {
     font-size: 20px;
+    
 }
 
 .image {
@@ -197,14 +192,14 @@ a:visited {
 
 
 img {
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
 }
 
 /* General Rules for portfolio images */
 .view {
-    width: 310px;
-    height: 280px;
+    width: 320px;
+    height: 310px;
     border-radius: 10px;
     margin: 5px;
     float: left;
@@ -218,11 +213,11 @@ img {
 }
 .view .mask, .view .content {
     width: 300px;
-    height: 290px;
+    height: 310px;
     position: absolute;
     overflow: hidden;
     top: 0;
-    left: 0
+    left: 0;
 }
 .view img {
     display: block;
@@ -325,10 +320,20 @@ footer {
 @media screen and (max-width: 1200px) {
     .portfolioImage {
         margin-left: 0px;
+    } 
+
+    .imageItself {
+        width: 30%;
+        
+    }
+    
+    .space {
+        margin-left: 40px;
     }
 
-    
-    
+    .first {
+        margin-left: -15px;
+    }
 }
 
 
