@@ -87,8 +87,6 @@ ul {
     list-style-type: none;
     display: inline; 
     margin-left: 15px;
-    
-    
 }
 
 .borderRight {
@@ -118,6 +116,15 @@ a:link {
     background-size: cover;
 }
 
+#aboutList ul{
+    color: black;
+   font-size: 18px;
+   list-style-type: circle;
+}
+
+#aboutList ul li{
+    list-style-type: circle;
+}
 /* Drop down areas */
 
 .dropDownTitle {
