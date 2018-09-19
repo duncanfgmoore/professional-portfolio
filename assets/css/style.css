@@ -5,9 +5,7 @@
     margin-bottom: 0px;
     height: 500px;
     background-image: url("../images/jumbotronImage.png");
-    background-size: cover;
-    
-    
+    background-size: cover;    
 }
 
 #myName {
@@ -16,7 +14,6 @@
     color: #F0FFFF;
     font-family: Verdana, Geneva, sans-serif;
     opacity: 0;
-    
 }
 
 #belowName {
@@ -29,8 +26,6 @@
 #profileImage {
     text-align: center;
     opacity: 0;
-   
-    
 }
 
 #myPhoto{
@@ -42,24 +37,24 @@
 #personalLinks {
     height: 10px;
     width: 100%;
-    
+    float: left;
+    margin-top: 10px;
 }
 
-#personalLinks ul
-{
+#personalLinks ul{
     margin: 0;
     padding: 0;
     margin-top: 15px;
 }
 
-
-
-#personalLinks ul li
-{
+#personalLinks ul li{
     list-style-type: none;
     display: inline;
     margin-right: 10px;
+    color: black;
 }
+
+
 
 /* Menu bar and list items attribute */
 .menuBar {
@@ -114,6 +109,10 @@ a:visited {
     color: #F0FFFF;
 }
 
+a:link {
+    color: #F0FFFF;
+}
+
 .panel {
     background-image: url("../images/dropDownBackground.jpeg");
     background-size: cover;
@@ -121,25 +120,18 @@ a:visited {
 
 /* Drop down areas */
 
-
-
-
-
 .dropDownTitle {
     text-align: center;
     width: 100%;
-  
 }
 
 #aboutMe {
-    
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .aboutText {
-    font-size: 20px;
-    
+    font-size: 20px;  
 }
 
 .image {
@@ -150,14 +142,11 @@ a:visited {
     height: 250px;
     width: 350px;
     margin-bottom: 20px;
-   
 }
-
 
 #resume {
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 
 #resumeImage {
@@ -165,8 +154,6 @@ a:visited {
     width: 250px;
     border: 1px solid black;
 }
-
-
 
 .resumeExample {
     text-align: center;
@@ -179,6 +166,11 @@ a:visited {
     font-size: 20px;
 }
 
+.download {
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+}
 
 /* Portfolio section and image attributes */
 
@@ -187,9 +179,7 @@ a:visited {
     float: left;
     position: relative;
     margin-bottom: 15px;
-    
 }
-
 
 img {
     height: 100%;
@@ -211,6 +201,7 @@ img {
     cursor: default;
     background: #fff url(../images/bgimg.jpg) no-repeat center center
 }
+
 .view .mask, .view .content {
     width: 300px;
     height: 310px;
@@ -219,10 +210,14 @@ img {
     top: 0;
     left: 0;
 }
+
 .view img {
     display: block;
-    position: relative
+    position: relative;
+    height: 85%;
+    margin-top: 25px;
 }
+
 .view h2 {
     text-transform: uppercase;
     color: #fff;
@@ -233,6 +228,7 @@ img {
     background: rgba(0, 0, 0, 0.8);
     margin: 20px 0 0 0
 }
+
 .view p {
     font-family: Georgia, serif;
     font-style: italic;
@@ -242,6 +238,7 @@ img {
     padding: 10px 20px 20px;
     text-align: center
 }
+
 .view a.info {
     display: inline-block;
     text-decoration: none;
@@ -251,6 +248,7 @@ img {
     text-transform: uppercase;
     box-shadow: 0 0 1px #000
 }
+
 .view a.info:hover {
     box-shadow: 0 0 5px #000
 }
@@ -259,17 +257,20 @@ img {
 .view-fifth img {
 	transition: all 0.3s ease-in-out; 
 }
+
 .view-fifth .mask { 
 	background-color: grey;
 	transform: translateX(-300px);
 	opacity: 1;
 	transition: all 0.4s ease-in-out; 
 }
+
 .view-fifth h2{
     background: white;
     color: #000;
     box-shadow: 0px 1px 3px rgba(197, 187, 186, 0.5);
 }
+
 .view-fifth p{
     opacity: 0;
     color: white;
@@ -279,11 +280,13 @@ img {
 /*Hover effects of the portfolio images */
 .view-fifth:hover .mask { 
 	transform: translateX(0px);
-}						
+}	
+
 .view-fifth:hover img { 
 	transform: translateX(300px);
 	transition-delay: 0.1s;
 }
+
 .view-fifth:hover p{
     opacity: 1;
     transition-delay: 0.4s;
@@ -300,15 +303,16 @@ img {
     margin-bottom: 20px;
 }
 
+.contact {
+    text-align: center;
+}
 /* Footer Area */
 footer {
     background-color: #36454f;
     height: 75px;
     text-align: center;
     border-radius: 5px;
-   
     margin-top: -20px;
-    
 }
 
 #copyright {
@@ -324,7 +328,6 @@ footer {
 
     .imageItself {
         width: 30%;
-        
     }
     
     .space {
@@ -347,7 +350,6 @@ footer {
 @media screen and (max-width: 880px) {
     #topJumbotron{
     background-image: url("../images/jumbotronBackground2.jpeg");
-  
     }  
 
 }
@@ -357,9 +359,7 @@ footer {
         width: 100%;
         text-align: center;
         margin-left: 22%;
-        margin-right: 50%;
-       
-        
+        margin-right: 50%; 
     } 
 }
 
@@ -373,13 +373,13 @@ footer {
     #accordion{
         width: 560px;
     }
+
     #menuBar {
         width: 560px;
     }
 
     #portfolio{ 
         width: 65%;
-
     }
 
     .imageItself {
