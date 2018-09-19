@@ -306,6 +306,14 @@ img {
 .contact {
     text-align: center;
 }
+
+.follow {
+    margin-bottom: 30px;
+}
+
+.map {
+    align-content: center;
+}
 /* Footer Area */
 footer {
     background-color: #36454f;
