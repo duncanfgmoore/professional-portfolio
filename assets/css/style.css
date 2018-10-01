@@ -147,9 +147,10 @@ a:link {
 }
 
 #aboutImage {
-    height: 250px;
+    height: 300px;
     width: 350px;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 #resume {
@@ -328,7 +329,8 @@ footer {
     height: 75px;
     text-align: center;
     border-radius: 5px;
-    margin-top: -20px;
+   
+    margin-bottom: -20px;
 }
 
 #copyright {
