@@ -50,6 +50,8 @@
   margin-right: 10px;
 }
 
+
+
 /* Menu bar and list items attribute */
 .menuBar {
   background-color: #36454f;
@@ -95,6 +97,10 @@ a:hover {
 
 a:visited {
   color: #f0ffff;
+}
+
+a:link {
+    color: #F0FFFF;
 }
 
 .panel {
@@ -188,10 +194,12 @@ img {
   top: 0;
   left: 0;
 }
+
 .view img {
   display: block;
   position: relative;
 }
+
 .view h2 {
   text-transform: uppercase;
   color: #fff;
@@ -202,6 +210,7 @@ img {
   background: rgba(0, 0, 0, 0.8);
   margin: 20px 0 0 0;
 }
+
 .view p {
   font-family: Georgia, serif;
   font-style: italic;
@@ -211,6 +220,7 @@ img {
   padding: 10px 20px 20px;
   text-align: center;
 }
+
 .view a.info {
   display: inline-block;
   text-decoration: none;
@@ -220,6 +230,7 @@ img {
   text-transform: uppercase;
   box-shadow: 0 0 1px #000;
 }
+
 .view a.info:hover {
   box-shadow: 0 0 5px #000;
 }
@@ -269,6 +280,17 @@ img {
   margin-bottom: 20px;
 }
 
+.contact {
+    text-align: center;
+}
+
+.follow {
+    margin-bottom: 30px;
+}
+
+.map {
+    align-content: center;
+}
 /* Footer Area */
 footer {
   background-color: #36454f;
