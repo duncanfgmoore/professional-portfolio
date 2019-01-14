@@ -1,402 +1,353 @@
 /* Jumbotrom attributes*/
 
-
 #topJumbotron {
-    margin-bottom: 0px;
-    height: 500px;
-    background-image: url("../images/jumbotronImage.png");
-    background-size: cover;
-    
-    
+  margin-bottom: 0px;
+  height: 500px;
+  background-image: url("../images/jumbotronImage.png");
+  background-size: cover;
 }
 
 #myName {
-    font-size: 58px;
-    text-align: center;
-    color: #F0FFFF;
-    font-family: Verdana, Geneva, sans-serif;
-    opacity: 0;
-    
+  font-size: 58px;
+  text-align: center;
+  color: #f0ffff;
+  font-family: Verdana, Geneva, sans-serif;
+  opacity: 0;
 }
 
 #belowName {
-    text-align: center;
-    color: #F0FFFF;
-    font-family: Verdana, Geneva, sans-serif;
-    opacity: 0;
+  text-align: center;
+  color: #f0ffff;
+  font-family: Verdana, Geneva, sans-serif;
+  opacity: 0;
 }
 
 #profileImage {
-    text-align: center;
-    opacity: 0;
-   
-    
+  text-align: center;
+  opacity: 0;
 }
 
-#myPhoto{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
+#myPhoto {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
 
 #personalLinks {
-    height: 10px;
-    width: 100%;
-    
+  height: 10px;
+  width: 100%;
 }
 
-#personalLinks ul
-{
-    margin: 0;
-    padding: 0;
-    margin-top: 15px;
+#personalLinks ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 15px;
 }
 
-
-
-#personalLinks ul li
-{
-    list-style-type: none;
-    display: inline;
-    margin-right: 10px;
+#personalLinks ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
 }
 
 /* Menu bar and list items attribute */
 .menuBar {
-    background-color: #36454f;
-    width: 100%;
-    height: 80px;
-    border-radius: 5px;
-    border: 1px solid white;
+  background-color: #36454f;
+  width: 100%;
+  height: 80px;
+  border-radius: 5px;
+  border: 1px solid white;
 }
 
 ul {
-    list-style-type: none;
-    text-align: center;
-    font-size: 24px;
-    color: #F0FFFF;
-    font-family: Verdana, Geneva, sans-serif    
-    
+  list-style-type: none;
+  text-align: center;
+  font-size: 24px;
+  color: #f0ffff;
+  font-family: Verdana, Geneva, sans-serif;
 }
 
-.menuBar ul
-{
-    margin-top: 15px;
-    padding: 0;
-    width: 100%;
-    
+.menuBar ul {
+  margin-top: 15px;
+  padding: 0;
+  width: 100%;
 }
 
-.menuBar ul li
-{
-    list-style-type: none;
-    display: inline; 
-    margin-left: 15px;
-    
-    
+.menuBar ul li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 15px;
 }
 
 .borderRight {
-    border-right: 2px solid #F0FFFF;
-    padding-right: 10px;
+  border-right: 2px solid #f0ffff;
+  padding-right: 10px;
 }
 
 a {
-    color: #F0FFFF;
+  color: #f0ffff;
 }
 
 a:hover {
-    cursor: pointer;
-    color: #F0FFFF;
+  cursor: pointer;
+  color: #f0ffff;
 }
 
 a:visited {
-    color: #F0FFFF;
+  color: #f0ffff;
 }
 
 .panel {
-    background-image: url("../images/dropDownBackground.jpeg");
-    background-size: cover;
+  background-image: url("../images/dropDownBackground.jpeg");
+  background-size: cover;
 }
 
 /* Drop down areas */
 
-
-
-
-
 .dropDownTitle {
-    text-align: center;
-    width: 100%;
-  
+  text-align: center;
+  width: 100%;
 }
 
 #aboutMe {
-    
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .aboutText {
-    font-size: 20px;
-    
+  font-size: 20px;
 }
 
 .image {
-    text-align: center;
+  text-align: center;
 }
 
 #aboutImage {
-    height: 250px;
-    width: 350px;
-    margin-bottom: 20px;
-   
+  height: 250px;
+  width: 350px;
+  margin-bottom: 20px;
 }
 
-
 #resume {
-    margin-top: 10px;
-    margin-bottom: 10px;
-
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #resumeImage {
-    height: 400px;
-    width: 250px;
-    border: 1px solid black;
+  height: 400px;
+  width: 250px;
+  border: 1px solid black;
 }
 
-
-
 .resumeExample {
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .resumeSummary {
-    margin-top: 40px;
-    font-size: 20px;
+  margin-top: 40px;
+  font-size: 20px;
 }
-
 
 /* Portfolio section and image attributes */
 
 .imageItself {
-    width: 33.3%;
-    float: left;
-    position: relative;
-    margin-bottom: 15px;
-    
+  width: 33.3%;
+  float: left;
+  position: relative;
+  margin-bottom: 15px;
 }
 
-
 img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 /* General Rules for portfolio images */
 .view {
-    width: 320px;
-    height: 310px;
-    border-radius: 10px;
-    margin: 5px;
-    float: left;
-    border: 10px solid #fff;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    box-shadow: 1px 1px 2px black;
-    cursor: default;
-    background: #fff url(../images/bgimg.jpg) no-repeat center center
+  width: 320px;
+  height: 310px;
+  border-radius: 10px;
+  margin: 5px;
+  float: left;
+  border: 10px solid #fff;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  box-shadow: 1px 1px 2px black;
+  cursor: default;
+  background: #fff url(../images/bgimg.jpg) no-repeat center center;
 }
-.view .mask, .view .content {
-    width: 300px;
-    height: 310px;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0;
+.view .mask,
+.view .content {
+  width: 300px;
+  height: 310px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
 }
 .view img {
-    display: block;
-    position: relative
+  display: block;
+  position: relative;
 }
 .view h2 {
-    text-transform: uppercase;
-    color: #fff;
-    text-align: center;
-    position: relative;
-    font-size: 17px;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.8);
-    margin: 20px 0 0 0
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  margin: 20px 0 0 0;
 }
 .view p {
-    font-family: Georgia, serif;
-    font-style: italic;
-    font-size: 12px;
-    position: relative;
-    color: #fff;
-    padding: 10px 20px 20px;
-    text-align: center
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 12px;
+  position: relative;
+  color: #fff;
+  padding: 10px 20px 20px;
+  text-align: center;
 }
 .view a.info {
-    display: inline-block;
-    text-decoration: none;
-    padding: 7px 14px;
-    background: #000;
-    color: #fff;
-    text-transform: uppercase;
-    box-shadow: 0 0 1px #000
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px #000;
 }
 .view a.info:hover {
-    box-shadow: 0 0 5px #000
+  box-shadow: 0 0 5px #000;
 }
 
 /* Transition of effect on the portfolio images */
 .view-fifth img {
-	transition: all 0.3s ease-in-out; 
+  transition: all 0.3s ease-in-out;
 }
-.view-fifth .mask { 
-	background-color: grey;
-	transform: translateX(-300px);
-	opacity: 1;
-	transition: all 0.4s ease-in-out; 
+.view-fifth .mask {
+  background-color: grey;
+  transform: translateX(-300px);
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
 }
-.view-fifth h2{
-    background: white;
-    color: #000;
-    box-shadow: 0px 1px 3px rgba(197, 187, 186, 0.5);
+.view-fifth h2 {
+  background: white;
+  color: #000;
+  box-shadow: 0px 1px 3px rgba(197, 187, 186, 0.5);
 }
-.view-fifth p{
-    opacity: 0;
-    color: white;
-    transition: all 0.2s linear;
+.view-fifth p {
+  opacity: 0;
+  color: white;
+  transition: all 0.2s linear;
 }
 
 /*Hover effects of the portfolio images */
-.view-fifth:hover .mask { 
-	transform: translateX(0px);
-}						
-.view-fifth:hover img { 
-	transform: translateX(300px);
-	transition-delay: 0.1s;
+.view-fifth:hover .mask {
+  transform: translateX(0px);
 }
-.view-fifth:hover p{
-    opacity: 1;
-    transition-delay: 0.4s;
+.view-fifth:hover img {
+  transform: translateX(300px);
+  transition-delay: 0.1s;
+}
+.view-fifth:hover p {
+  opacity: 1;
+  transition-delay: 0.4s;
 }
 
 /* Design of the contact page */
 .contactHello {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 32px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 .contactText {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* Footer Area */
 footer {
-    background-color: #36454f;
-    height: 75px;
-    text-align: center;
-    border-radius: 5px;
-   
-    margin-top: -20px;
-    
+  background-color: #36454f;
+  height: 75px;
+  text-align: center;
+  border-radius: 5px;
+
+  margin-top: -20px;
 }
 
 #copyright {
-    padding-top: 30px;
-    color: #F0FFFF;
-    font-size: 16px;
+  padding-top: 30px;
+  color: #f0ffff;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 1200px) {
-    .portfolioImage {
-        margin-left: 0px;
-    } 
+  .portfolioImage {
+    margin-left: 0px;
+  }
 
-    .imageItself {
-        width: 30%;
-        
-    }
-    
-    .space {
-        margin-left: 40px;
-    }
+  .imageItself {
+    width: 30%;
+  }
 
-    .first {
-        margin-left: -15px;
-    }
+  .space {
+    margin-left: 40px;
+  }
+
+  .first {
+    margin-left: -15px;
+  }
 }
 
-
 @media screen and (max-width: 1000px) {
-    .imageItself{
-        width: 47%;
-        margin-left: 15px;
-    }
+  .imageItself {
+    width: 47%;
+    margin-left: 15px;
+  }
 }
 
 @media screen and (max-width: 880px) {
-    #topJumbotron{
+  #topJumbotron {
     background-image: url("../images/jumbotronBackground2.jpeg");
-  
-    }  
-
+  }
 }
 
 @media screen and (max-width: 690px) {
-    .imageItself{
-        width: 100%;
-        text-align: center;
-        margin-left: 22%;
-        margin-right: 50%;
-       
-        
-    } 
+  .imageItself {
+    width: 100%;
+    text-align: center;
+    margin-left: 22%;
+    margin-right: 50%;
+  }
 }
-
 
 @media screen and (max-width: 560px) {
-    #topJumbotron {
-        background-image: url("../images/jumbotronBackground3.jpeg");
-        width: 560px;
-    }
+  #topJumbotron {
+    background-image: url("../images/jumbotronBackground3.jpeg");
+    width: 560px;
+  }
 
-    #accordion{
-        width: 560px;
-    }
-    #menuBar {
-        width: 560px;
-    }
+  #accordion {
+    width: 560px;
+  }
+  #menuBar {
+    width: 560px;
+  }
 
-    #portfolio{ 
-        width: 65%;
+  #portfolio {
+    width: 65%;
+  }
 
-    }
+  .imageItself {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
 
-    .imageItself {
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-    
-    #footer {
-        width: 560px;
-    }
+  #footer {
+    width: 560px;
+  }
 }
-
-
-
-
-
-
-
-
-
